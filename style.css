@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}    
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header-menu{
+    width: 100%;
+    height: 100vh;
+    background-color: #0b6050;
+}
+
+
+.header-menu nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 20px; 
+    position: relative;
+    margin-bottom: auto;
+    border-bottom: 2px solid #0b6050;  
+}
+
+
+.iniciais{
+    color: #242424;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.iniciais span{
+    color: #07a399;
+}
+
+
+.lista-menu li{
+    color: #242424;
+    list-style: none;
+    display: inline-block; /*todos os itens na mesma linha*/
+    font-size: 15px;
+    margin-right: 40px; /* distância entre os itens*/
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+.lista-menu li>a {
+    color: #242424; /*Cor do texto*/
+    font-size: 22px; /*Tamanho da fonte*/
+    font-weight: 300;
+    text-decoration: inherit; /*tirando o sublinhado*/
+}
+
+
+.lista-menu li>a:hover{ /*Trocar a cor quando passar o cursor sobre o item*/
+    color: #07a399;
+    transition: 0.5; /*tempo para trocar de cor quando passar o cursor sobre o item*/
+}
+
+.principal{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+
+#background img{
+    width: 100%;
+    height: 70vh;
+    background-position: 50%;
+    background-size: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+    
+}
+
+.container{
+    margin-right: auto; /*uma margem automática para todos os lados  */
+    margin-left: auto;
+    margin-top: 30px; /*Margem para cima*/
+    max-width: 960px; /*largura maxima*/
+    padding-right: 10px; /* Espaçamento direito*/
+    padding-left: 10px; /*Espaçamento esquerdo*/
+    width: 100%; /*largura*/
+    height: 100vh;
+}
+
+
+.subcontainer-principal-1{
+    /*display, flex-direction e justify content são elementos do flexbox que em conjunto, alinham nossos itens*/
+  display: block;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position:absolute;
+  top: 200px;
+}
+
+
+.subcontainer-principal-2{
+    /*display, flex-direction e justify content são elementos do flexbox que em conjunto, alinham nossos itens*/
+  display:block;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position:absolute;
+  top: 300px;
+  left: 100px;
+  right: 100px;
+}
+
+
+.nome-completo{
+    font-size: 70px;
+    color: #f4f4f4;
+    font-weight: 700; /*espessura da letra*/
+    height: 60px;
+    text-shadow: rgb(36, 36, 36) 0px 0px 10px
+}
+
+
+.profissao {
+    font-size: 48px;
+    color: #242424;
+    text-align: center;
+    color:#242424;
+    text-shadow: rgb(7, 163, 153) 0px 0px 10px;
+    font-weight: 700;
+    height:0%;    
+}
+
+
+#sobre{
+    display: flex;
+    align-items:normal;
+    padding: 60px 50vh 150px 50vh;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fbfaf3;
+    text-size-adjust:initial;
+    align-content: center;   
+}
+
+
+.texto-sobre {
+    width: 100%;
+    height: 100vh;
+    margin-right: 35vh;
+    margin-left: 35vh;
+    margin-top: 0px;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texto-sobre h2 {
+    color: #0b6050;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.texto-sobre p{
+    color: #242424;
+    font-size: 20px;
+    line-height: 32px; /* Espaçamento entre as linhas */
+    font-weight: 400;
+    text-align:justify;
+    display: block;
+    width: 100%;  
+}
+
+
+.topico-principal h3 {
+    color: #0b6050;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.article-lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+  
+
+
+
+.container img{
+    height: 600px;
+    border-radius: 100%;
+    border: 2px solid #f6f0e4;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);   
+    top: 120vh;
+    left: 120px;
+    bottom: 120vh;
+    display: block;
+    align-content: center;
+    justify-content: center;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+.container img:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: .5s;   
+}
+
+.container img:hover{
+    scale: 1.2;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+/* tentando colocar o efeito "digitação" na div profissao */
+.profissao::after{
+    content: "|";
+    position: absolute;
+    height: 100%;
+    margin-left: 1px solid #242424;
+    background-color: rgb(7, 163, 153) 0px 0px 10px;
+    right: -10px;
+    opacity: 1;
+    animation: cursor .9s infinite normal none running;
+    
+}
+
+@keyframes cursor {
+    0% { 
+        opacity: 0;
+    }    
+}
+
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 23;
+    }
+}
+
