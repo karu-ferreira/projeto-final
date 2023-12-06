@@ -1,168 +1,240 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- linkando HTML e CSS Externo -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- chamando o ícone na aba do navegador -->
-    <link rel="shortcut icon" href="./img/foto-perfil.png">
+    <link rel="shortcut icon" href="./img/foto-perfil.jpg" />
 
-    <!--google fonts--> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
     <title>Ana Carolina Ferreira</title>
-</head>
+  </head>
 
-<body>
-  <!-- cabeçalho da página, visível ao usuário -->
+  <body>
     <header class="header-menu">
-        <nav>
-            <h2 class="iniciais"><span>/*</span>A.C DEV<span>*/</span></h2>
-            <ul class="lista-menu">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contato">Contato</a></li>    
-              </ul>
-            </nav>
-          </header>  
-          
+      <nav>
+        <h2 class="logo"><span>/*</span>A.C DEV<span>*/</span></h2>
+        <ul class="lista-menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
 
-          <section id="inicio" class="subcontainer-principal"> 
-            <div class="subcontainer-principal fundo">
-              <h1 id="minhaNav" class="nome-completo">Ana Carolina Ferreira</h1>
-              <br/>
-              <h2 class="profissao">Desenvolvedora Front-end</h2>
-            </div>  
-          </section>
-
-          <!-- <div class="cor-de-fundo">
-            
-          </div> -->
-
-     <!--Aqui começariam as sections-->
-     <!-- Corpo da nossa página, visível ao usuário -->
-  <main class="cor-de-fundo">
-    <section id="sobre"  class="principal">
-      <article class="subcontainer-principal container">
-        <div>
-          <img src="img/foto-perfil.jpg" alt="Foto da profissional. Está sentanda, com braços cruzados, usa camiseta com listras pretas e brancas.">
+    <!--Aqui começariam as sections-->
+    <!-- Corpo da página, visível ao usuário -->
+    <main>
+      <section id="inicio" class="subcontainer-principal">
+        <div class="subcontainer-principal fundo">
+          <h1 id="minhaNav" class="nome-completo">Ana Carolina Ferreira</h1>
+          <br />
+          <h2 class="profissao">Desenvolvedora Front-end</h2>
         </div>
-        
-        <div class="texto-sobre">
-          <h2>Sobre mim</h2>
-          <br>
-          <p>
-            Olá! Sou Ana Carolina Ferreira, formada em Ciências Biológicas e agora estudando programção. Acredito que Ciência e Tecnologia caminhem lado a lado por isso me interesso em estudar ambas as áreas.</p> 
-          <br>
-          <p>
-            Atualmente estou concluindo o curso de Introdução à Programação do Instituto Minas Programam e iniciando o curso de Cientista de Dados, focando no desenvolvimento FullStack para a àrea de Segrança da Informação </p>
-        </div>
-      </article>
-    </section>
+      </section>
 
-    
+      <!--Solução para harmonizar seção "Início" com barra verde inferior à imagem-->
+      <section>
+        <div class="cor-de-fundo"></div>
+      </section>
+
+      <!--Seção "Sobre"-->
+      <section id="sobre" class="principal">
+        <article class="subcontainer-principal container">
+          <div>
+            <img
+              src="img/foto-perfil.jpg"
+              alt="Foto da profissional. Está sentanda, com braços cruzados, usa camiseta com listras pretas e brancas."
+            />
+          </div>
+
+          <div class="texto-sobre">
+            <h2>Sobre mim</h2>
+            <br />
+            <p>
+              Olá! Sou Ana Carolina Ferreira, formada em Ciências Biológicas e
+              agora estudando programção. Acredito que Ciência e Tecnologia
+              caminhem lado a lado por isso me interesso em estudar ambas as
+              áreas.
+            </p>
+            <br />
+            <p>
+              Atualmente estou concluindo o curso de Introdução à Programação do
+              Instituto Minas Programam e iniciando o curso de Cientista de
+              Dados, focando no desenvolvimento FullStack para a àrea de
+              Segrança da Informação.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!--------------------------------------------------------------------------------------------------------------------------------->
+      <!--Seção "Formação"-->
       <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
-    <section id="formacao">
-      <article class="container article-lista">
-            
-        <div>
-          <h2 class="topico-principal">Formação</h2>
-        </div>
-    
-        <div class="lista-item">
-          <ul>
-            <li>
-              <p class="lista-titulo">Introdução Tecnológica</p>
-                <a href="https://minasprogramam.com/" target="_blank" class="lista-local">Minas Programam</a>
-              <p class="lista-descricao">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
-              </p>
-            </li>
-    
-            <li>
-              <p class="lista-titulo">Analise e desenvolvimento de sistemas</p>
-                <a href="https://www.ifsp.edu.br/" target="_blank" class="lista-local">IFSP</a>
-              <p class="lista-descricao">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.
-              </p>
-            </li>
-          </ul>
-        </div>
-    
-      </article>
-    </section>
+      <section id="formacao" class="principal">
+        <article class="container article-lista">
+          <div>
+            <h2 class="topico-principal">Formação</h2>
+          </div>
 
-     
-    <section class="principal" id="habilidades">
-      <article class="container article-lista">
-        <div>
-          <h2 class="topico-principal">Habilidades</h2>
-        </div>
+          <div class="lista-item">
+            <ul>
+              <li>
+                <p class="lista-titulo">Introdução Tecnológica</p>
+                <a
+                  href="https://minasprogramam.com/"
+                  target="_blank"
+                  class="lista-local"
+                  >Minas Programam</a
+                >
+                <p class="lista-descricao">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  a nibh in sem tempor lacinia. Integer magna ante, vulputate
+                  sit amet sodales sed, pharetra ac velit. for clients and
+                  indoor purposes.
+                </p>
+              </li>
 
-        <div class="lista-item">
-          <ul>
-            <li>
-              <p class="lista-titulo">Mulheres que fazem história</p>
-              <p class="subtitulo-lista">Revelo</p>
-              <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local"> 27 desenvolvedoras brasileiras para se inspirar em 2022</a>
-              <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
-            </li>
+              <li>
+                <p class="lista-titulo">
+                  Analise e desenvolvimento de sistemas
+                </p>
+                <a
+                  href="https://www.ifsp.edu.br/"
+                  target="_blank"
+                  class="lista-local"
+                  >IFSP</a
+                >
+                <p class="lista-descricao">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  a nibh in sem tempor lacinia. Integer magna ante, vulputate
+                  sit amet sodales sed, pharetra ac velit. for clients and
+                  indoor purposes.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
 
-            <li>
-              <p class="lista-titulo">Relatório de impacto</p>
-              <p class="subtitulo-lista">Pretalab</p>
-              <a href="https://relatoriodeimpacto.pretalab.com/" target="_blank" class="lista-local">Objetivos de Desenvolvimento Sustentável (ODS) da ONU no Brasil.</a>
-              <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
-            </li>
-          </ul>
-        </div>
-      </article>
-    </section>
+      <section class="principal" id="habilidades">
+        <article class="container article-lista">
+          <div>
+            <h2 class="topico-principal">Habilidades</h2>
+          </div>
 
-    <section class="principal" id="projetos">
-      <article class="container article-lista">
-        <div>
-          <h2 class="topico-principal">Projetos</h2>
-        </div>
+          <div class="lista-item">
+            <ul>
+              <li>
+                <p class="lista-titulo">Mulheres que fazem história</p>
+                <p class="subtitulo-lista">Revelo</p>
+                <a
+                  href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/"
+                  target="_blank"
+                  class="lista-local"
+                >
+                  27 desenvolvedoras brasileiras para se inspirar em 2022</a
+                >
+                <p class="lista-descricao">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  a nibh in sem tempor lacinia. Integer magna ante, vulputate
+                  sit amet sodales sed, pharetra ac velit. for clients and
+                  indoor purposes.
+                </p>
+              </li>
 
-        <div class="lista-item">
-          <ul>
-            <li>
-              <p class="lista-titulo">Mulheres que fazem história</p>
-              <p class="subtitulo-lista">Revelo</p>
-              <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local"> 27 desenvolvedoras brasileiras para se inspirar em 2022</a>
-              <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
-            </li>
+              <li>
+                <p class="lista-titulo">Relatório de impacto</p>
+                <p class="subtitulo-lista">Pretalab</p>
+                <a
+                  href="https://relatoriodeimpacto.pretalab.com/"
+                  target="_blank"
+                  class="lista-local"
+                  >Objetivos de Desenvolvimento Sustentável (ODS) da ONU no
+                  Brasil.</a
+                >
+                <p class="lista-descricao">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  a nibh in sem tempor lacinia. Integer magna ante, vulputate
+                  sit amet sodales sed, pharetra ac velit. for clients and
+                  indoor purposes.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
 
-            <li>
-              <p class="lista-titulo">Relatório de impacto</p>
-              <p class="subtitulo-lista">Pretalab</p>
-              <a href="https://relatoriodeimpacto.pretalab.com/" target="_blank" class="lista-local">Objetivos de Desenvolvimento Sustentável (ODS) da ONU no Brasil.</a>
-              <p class="lista-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit amet sodales sed, pharetra ac velit. for clients and indoor purposes.</p>
-            </li>
-          </ul>
-        </div>
-      </article>
-    </section>
-  </main>
+      <section class="principal" id="projetos">
+        <article class="container article-lista">
+          <div>
+            <h2 class="topico-principal">Projetos</h2>
+          </div>
 
+          <div class="lista-item">
+            <ul>
+              <li>
+                <p class="lista-titulo">Mulheres que fazem história</p>
+                <p class="subtitulo-lista">Revelo</p>
+                <a
+                  href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/"
+                  target="_blank"
+                  class="lista-local"
+                >
+                  27 desenvolvedoras brasileiras para se inspirar em 2022</a
+                >
+                <p class="lista-descricao">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  a nibh in sem tempor lacinia. Integer magna ante, vulputate
+                  sit amet sodales sed, pharetra ac velit. for clients and
+                  indoor purposes.
+                </p>
+              </li>
+
+              <li>
+                <p class="lista-titulo">Relatório de impacto</p>
+                <p class="subtitulo-lista">Pretalab</p>
+                <a
+                  href="https://relatoriodeimpacto.pretalab.com/"
+                  target="_blank"
+                  class="lista-local"
+                  >Objetivos de Desenvolvimento Sustentável (ODS) da ONU no
+                  Brasil.</a
+                >
+                <p class="lista-descricao">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                  a nibh in sem tempor lacinia. Integer magna ante, vulputate
+                  sit amet sodales sed, pharetra ac velit. for clients and
+                  indoor purposes.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
 
     <!-- rodapé da nossa página, visível ao usuário -->
-    <footer class="rodape" id="contato">
+    <!-- <footer class="rodape" id="contato">
       <div class="container">
         <ul class="lista-rodape">
           <li><i class="fas fa-envelope-square estilo-icone"></i><a href="mailto:amanda.adgti@gmail.com" class="links">Enviar e-mail</a></li>
@@ -171,8 +243,6 @@
         </ul>
         <a href="#minhaNav" class="link">Volte ao topo</a>
       </div>
-    </footer>
-  
+    </footer> -->
   </body>
-  
-  </html> 
+</html>
